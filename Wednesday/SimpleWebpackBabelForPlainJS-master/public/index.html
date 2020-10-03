@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webpack/Babel-demo</title>
+</head>
+
+<body>
+  <ul id="menu" class="header">
+    <li><a href="" id="about">About</a></li>
+    <li><a href="" id="ex1">Ex1</a></li>
+    <li><a href="" id="ex2">Ex2</a></li>
+    <li><a href="" id="ex3">Ex3</a></li>
+  </ul>
+
+  <div class="content">
+
+    <!-- This is were you should place your basic HTML for exercise-1 -->
+    <div id="ex1_html" style="display:none;">
+      <h3>Exercise 1</h3>
+      <p>Add your basic HTML for Exercise 1 here</p>
+      <ul id="jokes"></ul>
+      <form>
+        <label for="jokeId">joke id:</label>
+        <input type="text" id="jokeId" name="jokeId"><br><br>
+        <button type="button" id="jokeButton">jokebyid</button>
+      </form>
+      <p id="jokeById"></p>
+      <form>
+        <label for=>add new joke</label>
+        <input type="text" id="newJoke" name="newJoke"><br><br>
+        <button type="button" id="addJokeButton">jokebyid</button>
+      </form>
+      <p id="newJokeP"></p>
+    </div>
+    <!-- End of HTML for exercise-1 -->
+
+
+
+    <!-- This is were you should place your basic HTML for exercise-2 -->
+    <div id="ex2_html" style="display:none;">
+      <h3>Exercise 2</h3>
+      <p>Add your basic HTML for Exercise 2 here</p>
+      <form>
+        <button type="button" id="quoteButton">jokebyid</button>
+      </form>
+      <p id="quoteP"></p>
+    </div>
+    <!-- End of HTML for exercise-2 -->
+
+
+    <!-- This is were you should place your basic HTML for exercise-3 -->
+    <div id="ex3_html" style="display:none;">
+      <h3>Ex-3</h3>
+      <p>Add your basic HTML for Exercise 3 here</p>
+
+      <div class="row" style="min-height: 5em;"">
+      <div class=" col-md-8 pre-scrollable" style="background-color: lightgrey;">
+        <h5>All Users</h5>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Id</th>
+              <th>Age</th>
+              <th>Name
+              <th>
+              <th>Gender</th>
+              <th>Email </th>
+          </thead>
+          <tbody id="allUserRows">
+          <tbody>
+        </table>
+      </div>
+      <div class="col-md-4" style="background-color: powderblue;">
+        <h5>Find User</h5>
+        <input type="text" id="userByIdInput" name="Find user by id"><br><br>
+        <button type="button" id="userByIdButton">Get user by id</button>
+        <p id="userByIdP"></p>
+      </div>
+    </div>
+    <div class="row" style="min-height: 5em;">
+      <div class="col-md-4" style="background-color: powderblue;">
+        <h5>Add User</h5>
+        <input type="text" id="addUserAgeInput" placeholder="age"><br><br>
+        <input type="text" id="addUserNameInput" placeholder="name"><br><br>
+        <input type="text" id="addUserGenderInput" placeholder="gender"><br><br>
+        <input type="text" id="addUserEmailInput" placeholder="email"><br><br>
+        <button type="button" id="addUserButton">Add user</button>
+      </div>
+      <div class="col-md-4" style="background-color: lightgrey;">
+        <h5>Edit User</h5>
+        <input type="text" id="editUserIdInput" placeholder="id"><br><br>
+        <input type="text" id="editUserAgeInput" placeholder="age"><br><br>
+        <input type="text" id="editUserNameInput" placeholder="name"><br><br>
+        <input type="text" id="editUserGenderInput" placeholder="gender"><br><br>
+        <input type="text" id="editUserEmailInput" placeholder="email"><br><br>
+        <button type="button" id="editUserButton">Edit user</button>
+      </div>
+      <div class="col-md-4" style="background-color: powderblue;">
+        <h5>Delete User</h5>
+        <input type="text" id="deleteUserIdInput" placeholder="id"><br><br>
+        <button type="button" id="deleteUserButton">Delete user</button>
+      </div>
+    </div>
+  </div>
+  <!-- End of HTML for exercise-3 -->
+
+  <!---- HTML for the About page -->
+  <div id="about_html" style="display:none;">
+    <h3>About</h3>
+    <p>Watch the small video given as intro to this code, BEFORE you start using it</p>
+  </div>
+  <!-- End of HTML for ABOUT Page -->
+
+  </div>
+
+  <!-- #################################################################-->
+  <!-- IMPORTANT  DO NOT IMPORT ANY JavaScript in this file by YOURSELF -->
+  <!-- #################################################################-->
+
+</body>
+
+</html>
